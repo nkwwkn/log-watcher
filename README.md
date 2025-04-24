@@ -20,7 +20,7 @@
 ## ⚙️  Installation / Встановлення
 
 ```bash
-python -m pip install -r requirements.txt  # requests>=2.25
+python -m pip install "requests>=2.25"
 ```
 
 ---
