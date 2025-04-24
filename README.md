@@ -55,8 +55,3 @@ python logfilter.py \
 MIT  
 Вихідний код відкритий під ліцензією MIT — вільно використовуйте й модифікуйте.
 
----
-
-> Created as a pet‑project and showcased in my CV.  
-> Створено як pet‑проєкт і додано до мого резюме.
-
