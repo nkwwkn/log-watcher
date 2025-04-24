@@ -1,11 +1,11 @@
 import os, requests, argparse, time
 
-TOKEN = "5528712778:AAG6SCb3jEbBDkBidwsYYobT5h7FC20uRYU"
+TOKEN = "TOKEN"
 
 parser = argparse.ArgumentParser(description="Automatic log parser with notificatoon to Telegram")
 parser.add_argument("-tg", action="store_true", help="Enable Telegram notification")
 parser.add_argument("-monitor", action="store_true", help="Start program as monitor")
-parser.add_argument("--telegram-chat-id", type=str, default="641997529", help="Set Telegram chat id for notification")
+parser.add_argument("--telegram-chat-id", type=str, default="CHAT-ID", help="Set Telegram chat id for notification")
 parser.add_argument("--level", nargs="+", type=str, default=["ERROR"], help="Set level for notification: ERROR, WARNING, INFO")
 parser.add_argument("--input-path", type=str, default="/mnt/c/SAS/app.log", help="Set a log file input path")
 parser.add_argument("--filter-dir-path", type=str, default="/mnt/c/SAS/filtered", help="Set a directory path for filtered")
